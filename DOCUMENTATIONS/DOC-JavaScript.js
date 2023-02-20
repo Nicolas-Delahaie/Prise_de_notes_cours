@@ -57,7 +57,7 @@ element.textContent;                                                    //Conten
 
 
 // ------- EVENEMENTS ------- 
-element.addEventListener("event", "fonctionCallback()");                //Ecoute un evenement ("click", "mousemove", "mouseevent", "change", ...) et lance la fonction lorsqu il a lieu
+element.addEventListener("event", fonctionCallback);                //Ecoute un evenement ("click", "mousemove", "mouseevent", "change", ...) et lance la fonction lorsqu il a lieu
 element.preventDefault();                                               //Retire le comportement par default de l element
 element.stopPropagation();                                              //Empeche le signal d un element de remonter a son parent
 evenement.clientX;                                                      //Position de la souris dans les coordonnées locales (contenu du DOM)
