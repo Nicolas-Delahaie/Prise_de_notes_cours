@@ -6,6 +6,8 @@
 //------- AFFICHAGE -------
 console.log("coucou");                                                  //Pour afficher dans la console le parametre
 alert("coucou");                                                        //Pour afficher en pop-up le parametre
+res = confirm("Message a valider");                                     //Pour afficher en popup un message a valider
+res = prompt("Saisie", "Votre nom");                                    //Pour afficher une zone de saisie
 
 
 // ------- ELEMENTS ------- 
