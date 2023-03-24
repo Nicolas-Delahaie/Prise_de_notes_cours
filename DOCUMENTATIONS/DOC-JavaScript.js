@@ -30,6 +30,7 @@ element.previousElementSibling ("element_id");                          //comme 
 //Modifier des elements
 newElement = document.createElement("div");                             //Cree un nouvel element orphelin
 elementParent.appendChild(newElement);                                  //Assigne l element a un parent
+elementParent.insertBefore(newElement, elmtSuivant);
 elementParent.removeChild(element);       
 elementParent.replaceChild(element, newElement);
 
