@@ -75,7 +75,6 @@ fetch("http://url-service-web.com/api/users")                           //Envoie
 .then(function(value) {})                                               //Recupere la valeur retournee en JSON
 .catch(function(err) {});     
 
-
 //[] est une liste, {} est un dictionnaire
 formatJSON = {
     "name": "Mon contenu",
