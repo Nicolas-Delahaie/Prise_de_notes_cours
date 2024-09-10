@@ -1,5 +1,3 @@
-
-
 // -- FONCTIONS SIMPLES -- //
 import { useState, useEffect } from 'react';
 const [nomVar, setVar] = useState(valeur); // créé une variable dynamique, modifiable avec "setVar"
